@@ -1,0 +1,3 @@
+import mongoose from "mongoose";
+const s=new mongoose.Schema({name:{type:String,required:true,trim:true,maxlength:120},slug:{type:String,required:true,unique:true,lowercase:true,trim:true},description:{type:String,required:true,maxlength:2000},price:{type:Number,required:true,min:0},compareAtPrice:{type:Number,min:0},category:{type:String,required:true,index:true},brand:{type:String,trim:true,index:true,default:""},image:{type:String,required:true},stock:{type:Number,required:true,min:0,default:0},featured:{type:Boolean,default:false},tags:[String]},{timestamps:true});
+export default mongoose.model("Product",s);

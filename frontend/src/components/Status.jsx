@@ -1,0 +1,1 @@
+const m={Pending:"bg-amber-50 text-amber-700",Processing:"bg-blue-50 text-blue-700",Shipped:"bg-violet-50 text-violet-700",Delivered:"bg-emerald-50 text-emerald-700"};export default function Status({status}){return <span className={`pill ${m[status]||"bg-black/5"}`}>{status}</span>}
