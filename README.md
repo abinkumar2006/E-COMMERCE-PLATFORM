@@ -2,15 +2,6 @@
 
 A full-stack e-commerce web application built using **React, Node.js, Express, and MongoDB**. It provides a complete online shopping experience with authentication, product browsing, cart management, checkout, order tracking, and role-based administration.
 
-## 🌐 Live Demo
-
-**Live Website:**  
-https://e-commerce-platform-nine-gilt.vercel.app/
-
-**GitHub Repository:**  
-https://github.com/Alden673/ECommerce-Platform
-
----
 
 ## ✨ Features
 
@@ -391,9 +382,7 @@ Developed as a practical **full-stack development and internship project** to de
 
 ---
 
-# 👨‍💻 Author
-
-**Alden Gomez**
+#
 
 Full-Stack Developer
 
@@ -401,6 +390,3 @@ Full-Stack Developer
 
 ---
 
-## 🌐 Live Application
-
-https://e-commerce-platform-nine-gilt.vercel.app/
